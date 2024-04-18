@@ -808,7 +808,7 @@ section .container {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.portfolio .portfolio-wrap .portfolio--box {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -985,7 +985,10 @@ section .container {
   padding: 20px;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
+  align-items: center;
+  margin: auto;
 }
+
 
 .contact .info-box i.bx {
   font-size: 24px;
@@ -994,13 +997,15 @@ section .container {
   padding: 14px;
   float: left;
   background: rgba(255, 255, 255, 0.1);
+  align-items: center;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
-  margin: 10px 0 8px 68px;
+  /* margin: 10px 0 8px 10px; */
+  align-items: center;
 }
 
 .contact .info-box p {
@@ -1009,11 +1014,13 @@ section .container {
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
+  align-items: center;
 }
 
 .contact .info-box .social-links {
   margin: 5px 0 0 68px;
   display: flex;
+  align-items: center;
 }
 
 .contact .info-box .social-links a {
@@ -1023,10 +1030,12 @@ section .container {
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
+  align-items: center;
 }
 
 .contact .info-box .social-links a:hover {
   color: #18d26e;
+  align-items: center;
 }
 
 .contact .php-email-form {
